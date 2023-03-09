@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Manifesto del Collettivo Tekno Autogestito</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        background-color: black;
+        color: #F0F0F0;
+        text-align: center;
+        padding-top: 50px;
+      }
+
+      h1 {
+        font-size: 3em;
+        margin-bottom: 30px;
+        color: white;
+        animation: moveTitle 2s ease-in-out infinite;
+      }
+
+      @keyframes moveTitle {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+
+      p {
+        font-size: 1.5em;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        animation: moveText 3s ease-in-out infinite;
+      }
+
+      @keyframes moveText {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(10px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+
+      a {
+        color: #F0F0F0;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Manifesto del Collettivo Tekno Autogestito</h1>
+    <p>Noi del Collettivo Tekno Autogestito crediamo che la musica tekno sia uno strumento di liberazione e un'opportunità per costruire comunità basate sull'autogestione e l'autonomia. Non accettiamo la commercializzazione della musica tekno e l'ingerenza di poteri esterni nella nostra scena. Siamo impegnati a creare spazi sicuri e inclusivi per tutti coloro che vogliono partecipare alla nostra comunità.</p>
+    <p>Unisciti a noi nella lotta per la libertà, l'uguaglianza e l'autodeterminazione!</p>
+    <p>Per maggiori informazioni sul nostro collettivo e i nostri eventi, seguici su <a href="https://www.facebook.com/collettivoteknoautogestito">Facebook</a>.</p>
+  </body>
+</html>
